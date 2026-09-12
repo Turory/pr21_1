@@ -14,21 +14,21 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="120"/>
             <ColumnDefinition Width="120"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
 
         <Canvas>
             <Label Content="Последние документы" Canvas.Left="40" Canvas.Top="15"/>
         </Canvas>
-        <Button Content="Открыть" Grid.Column="2" Margin="5,10,5,5"/>
-        <Button Content="Сохранить" Grid.Column="3" Margin="5,10,5,5"/>
-        <Button Content="Закрыть" Grid.Column="4" Margin="5,10,5,5"/>
-        <Button Content="Обработка" Grid.Column="5" Margin="5,10,5,5"/>
-        <Button Content="О программе" Grid.Column="6" Margin="5,10,10,5"/>
+        <Button Content="Открыть" Grid.Column="2" Margin="5,10,5,5" Width="95"/>
+        <Button Content="Сохранить" Grid.Column="3" Margin="5,10,5,5" Width="95"/>
+        <Button Content="Закрыть" Grid.Column="4" Margin="5,10,5,5" Width="95"/>
+        <Button Content="Обработка" Grid.Column="5" Margin="5,10,5,5" Width="95"/>
+        <Button Content="О программе" Grid.Column="6" Margin="5,10,10,5" Width="95"/>
 
         <Canvas Grid.Row="1" Margin="10">
             <Label Content="1.txt"/>
@@ -41,11 +41,11 @@
         </Canvas>
 
         <WrapPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6">
-            <TextBlock Text="A" Background="Red" Width="70" Height="70" Padding="5" Margin="10"/>
-            <TextBlock Text="B" Background="Green" Width="70" Height="70" Padding="5" Margin="10"/>
-            <TextBlock Text="C" Background="Blue" Width="70" Height="70" Padding="5" Margin="10"/>
-            <TextBlock Text="D" Background="Yellow" Width="70" Height="70" Padding="5" Margin="10"/>
-            <TextBlock Text="F" Background="Orange" Width="70" Height="70" Padding="5" Margin="10"/>
+            <TextBlock Text="A" Background="Red" Width="70" Height="70" Padding="5" Margin="15"/>
+            <TextBlock Text="B" Background="Green" Width="70" Height="70" Padding="5" Margin="15"/>
+            <TextBlock Text="C" Background="Blue" Width="70" Height="70" Padding="5" Margin="15"/>
+            <TextBlock Text="D" Background="Yellow" Width="70" Height="70" Padding="5" Margin="15"/>
+            <TextBlock Text="F" Background="Orange" Width="70" Height="70" Padding="5" Margin="15"/>
         </WrapPanel>
 
 
