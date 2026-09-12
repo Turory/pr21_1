@@ -14,21 +14,21 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="120"/>
             <ColumnDefinition Width="120"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <Canvas>
             <Label Content="Последние документы" Canvas.Left="40" Canvas.Top="15"/>
         </Canvas>
-        <Button Content="Открыть" Grid.Column="2" Margin="5,10,5,5" Width="95"/>
-        <Button Content="Сохранить" Grid.Column="3" Margin="5,10,5,5" Width="95"/>
-        <Button Content="Закрыть" Grid.Column="4" Margin="5,10,5,5" Width="95"/>
-        <Button Content="Обработка" Grid.Column="5" Margin="5,10,5,5" Width="95"/>
-        <Button Content="О программе" Grid.Column="6" Margin="5,10,10,5" Width="95"/>
+        <Button Content="Открыть" Grid.Column="2" Margin="5,10,5,5"/>
+        <Button Content="Сохранить" Grid.Column="3" Margin="5,10,5,5"/>
+        <Button Content="Закрыть" Grid.Column="4" Margin="5,10,5,5"/>
+        <Button Content="Обработка" Grid.Column="5" Margin="5,10,5,5"/>
+        <Button Content="О программе" Grid.Column="6" Margin="5,10,10,5"/>
 
         <Canvas Grid.Row="1" Margin="10">
             <Label Content="1.txt"/>
